@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <title>ZaydMbooks.com</title>
+<style>
+body{
+background: linear-gradient(to right, darkslategray,black)
+}
+    #title{
+        text-align: center;
+        color: lightgreen;
+        font-size: 50px;
+        font-family: 'Yeon Sung';
+        
+    }
+    #logo{
+     float:left;
+          position:absolute;
+   top:0;
+   left:1;
+        width:140px;
+        height:100px;
+        border: 2px solid black;
+    }
+    #header{
+        position:absolute;
+        width:1275px;
+        height:104px;
+        top:0;
+        left:0;
+        border:3px solid green;
+     
+   
+        
+    }
+    nav{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:darkslategray;
+    max-height: 230px;
+        
+    }
+      
+
+       #nav {
+  margin-left: 10;
+  padding-left: 420px;
+  overflow: hidden;
+background-color: #333;}
+
+
+#nav  a {
+  display: block;
+  color: white;
+    font-size: 20px;  
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+      float: left;
+    } 
+    
+#nav  a:hover {
+  background-color: #111;
+}
+ nav #nav a:active{
+        background-color: green;
+    }
+    #dropdown {
+  overflow: hidden;
+        margin: 0 auto;
+    
+        
+}
+    
+ #dropbtn {
+     position: absolute;
+     top: 110px;
+     left: 775px;
+     height: 50px;
+    margin-top: 0px;
+ padding-top: 0px;
+padding-left: 10;
+  overflow: hidden;
+background-color: #333;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+ #dropdown:hover #dropbtn {
+ background-color: #111;
+}
+
+#dropdown-content {
+    margin-top: 40px;
+    margin-top: 40px;
+  display: none;
+  position: absolute;
+  background-color: #111;
+  max-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    float: right;
+}
+
+#dropdown-content a {
+  float: none;
+  color: aqua;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    font-size: 20px;
+}
+
+#dropdown-content a:hover {
+ background-color: grey;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+  
+    main{
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid black;
+    }
+     #hh1{
+         text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Cooper';
+    }
+    #hh1{
+         text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Cooper';
+    }
+   
+   .hh3{
+         text-align: center;
+        color: aliceblue;
+        font-size: 25px;
+        font-family: 'Cooper';
+        border: 2px solid black;
+        background-color: darkslateblue;
+    }
+ .text{
+    color: limegreen;
+        font-size: 25px;
+        text-align: left;
+     background-color: rgba(255,255,255,0.2);
+        
+    }
+    #image{
+        width: 500px;
+        height:600px;
+        position: relative; 
+       padding-left: 25%;
+        padding-right:25%;
+        padding-top: 5px;
+        padding-bottom: 40px; 
+    }
+
+</style>
+
+</head>
+
+
+<body>
+
+<header>
+    <div id = 'header'>
+    <h1 id = 'title'>Zayd Mohammad</h1>
+         <img src='logo.jpg' id = 'logo' alt="logo">
+    </div>
+    </header>
+   <nav>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+
+<div id = "nav">
+  <h4 class = 'head'><a class="active" href='#'>Home</a></h4>
+<h4 class="head"><a href = '#About'>About</a></h4>
+  <h4 class = 'head'><a href='#upcoming'>Upcoming books</a></h4>
+    
+    <div id="dropdown">
+    <button id="dropbtn"><h4>List of books<sub>▼ </sub> </h4></button>
+    <div id="dropdown-content">
+      <a href="#">When life is slightly not right</a>
+      <a href="#">Aviation feats</a>
+      <a href="#">The race to Charleville</a>
+        <a href="#">Down down and going down</a>
+        <a href="#">The amazing life and mysterious death of Amelia Earheart</a>
+        <a href="#">Fly</a>
+        <a href="#">Gone in the wind</a>
+    </div>
+</div>
+       </div>
+    </nav>
+    
+    
+<main>
+    <h3 class = "hh3">Short Biography</h3>
+        <img src="me.jpg" style="float: right;">
+    <p class="text">Zayd was born is the USA and came to Australia 5 months later. He loves books and aviation, so when he got into authoring books, he combined those two to make novels both fictional and real that entertain as well as inform. His books are mainly targeted at teens and adults due to the difficult vocabulary and consistent theme of danger and eventually a new hope in an unimaginable way. His books are now easier than ever to read as he has now published them online. To read more about his incredible feats as a writer and more info about borrowing his books, go to the About section or click <a href = "#">here</a>.</p>
+<br>
+    
+    <h3 class= 'hh3'>Latest book</h3>
+    
+<br>
+    <img src="Front.jpg" id ="image">
+    <h3 class="hh3">First Paragraph</h3>
+<p class="text">
+    <br>
+    This book is not for the feint-hearted nor is it for the people who love Disney movies. This book will make you want to chatter in fear. I mean how bad could it really be….
+    <br>
+    <br>
+“This is the FAA in partnership with the FBI; we order you to land immediately!” John is getting his type-rating for Cessna 172, and Dave is the flight instructor, and this is not how they had expected their routine training flight to go. For the uninitiated people who live on Mars, a type-rating is like a license to be allowed to fly a specific aircraft. Anyways, this sudden command shocked both of them and John, the pilot flying accidently put the plane in a nosedive. Dave, the pilot monitoring had to pull up and level off. “We should probably respond to the FAA now,” said John. “This is Charlie Echo Bravo 93, we would like to ask…umm… the reason for this command please,” asked Dave. “Charlie Echo Bravo 93, you have broken the law and thus will be arrested once you land,” replied the FAA agent from the fighter jet that intercepted them. Oh boy…..
+</p>
+    <h3 class="hh3">Comments</h3>
+    <ul>
+    <li class="text">“Great book, great tension, great storyline” – Courier mail</li>
+        <li class="text">“Scary but also hopeful”- Storyreviews.com</li>
+        <li class="text">“Perfect”- Brisbane Times</li>
+    </ul>
+    </main>
+
+<div>
+</div>
+
+
+
+</body>
+
+
+
+</html>
